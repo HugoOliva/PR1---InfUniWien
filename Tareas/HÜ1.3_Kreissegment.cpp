@@ -6,7 +6,7 @@ using namespace std;
 and computes the area of the segment */
 
 int main () {
-    double angleA,radiousR, flaecheKreis;
+    double angleA,radiousR, flaecheKreis; //    Variables
 
     cout << "Winkel α: ";
     cin >> angleA;
@@ -16,4 +16,6 @@ int main () {
     flaecheKreis = (radiousR * radiousR * (angleA-sin(angleA)))/2;
     cout << "Die Fläche der Kreissegment ist " << flaecheKreis <<endl;
     return 0;
+
+    
 }
